@@ -2,10 +2,7 @@ node_modules/
 flow-typed/
 *.json
 .npm/
-dist/
 
 *.md
 *.log
-Dockerfile
-Makefile
 push.sh
