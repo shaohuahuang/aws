@@ -53,5 +53,8 @@
     "mocha": "^3.4.2",
     "prettier": "1.7.0",
     "sinon": "^2.3.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.453.0"
   }
 }
