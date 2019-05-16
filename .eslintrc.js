@@ -39,7 +39,7 @@ module.exports = {
     "no-unused-expressions": ["error", { "allowTernary": true }],
     "no-plusplus": ["off", { "allowForLoopAfterthoughts": true }],
     "import/no-unresolved": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": ["warn", { "devDependencies": true }],
     "prettier/prettier": ["error", { "tabWidth": 2, "semi": false, "parser": "flow" }],
     "flowtype-errors/show-errors": 2,
     "no-case-declarations": "off"
